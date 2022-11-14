@@ -1,0 +1,78 @@
+@import "./modules/variables";
+@import "./modules/navbar";
+@import "./modules/footer";
+@import "./modules/homepage";
+@import "./modules/aboutus";
+@import "./modules/whatweoffer";
+@import "./modules/getintouch";
+@import "./modules/donatepage";
+
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.donate-link {
+    color: #E9418B !important;
+    padding: 7px;
+    font-weight: 600;
+    margin-top: -3px !important;
+    background-color: #FFEBF5;
+    color: #E9418B;
+    border: 1px solid #E9418B;
+    font-size: 15px;
+    margin-left: 8px !important;
+}
+
+.donate-box-content:hover {
+    cursor: pointer;
+    background-color: $peach;
+    color: $darkpink;
+    border: 2px solid $darkpink;
+}
+
+a.donate-link:hover {
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:active {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+
+
+// media queries
+@import "./modules/tablet-styles";
+@import "./modules/desktop-styles";

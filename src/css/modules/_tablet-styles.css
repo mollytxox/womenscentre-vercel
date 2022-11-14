@@ -1,0 +1,49 @@
+/* Media queries */
+@media screen and (min-width: 768px) {
+  .mobile-donate-button {
+    display: none;
+  }
+  .show-mobile-menu-button {
+    display: none;
+  }
+  #topnav {
+    height: 100px;
+    display: block;
+  }
+  #topnav a,
+  #topnav li {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  #topnav img {
+    width: 125px;
+    height: 75px;
+    margin-top: -13px;
+  }
+  #topnav #logo {
+    margin-right: 495px;
+    margin-top: -8px;
+  }
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    width: 98%;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    padding-right: 0px;
+    margin-left: 3px;
+  }
+  #menu li {
+    display: inline-block;
+    margin-right: 45px;
+  }
+  #menu-container {
+    display: none;
+  }
+  .donate-link {
+    padding: 3px 5px 3px 5px;
+    margin-top: 0px !important;
+  }
+}

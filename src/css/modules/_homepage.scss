@@ -1,0 +1,161 @@
+// home page
+
+#hero {
+    width: 100%;
+    height: auto;
+
+    .hero-background-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.welcome-title {
+    font-size: 18px;
+    color: $orange;
+    font-family: $quicksand;
+    padding: $med-padding;
+}
+
+.welcome-body-text {
+    font-family: $noto;
+    color: black;
+    padding-left: $med-padding;
+    padding-right: $med-padding;
+    padding-bottom: $med-padding;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.findoutmore-button {
+    width: 125px;
+    height: 40px;
+    border: 2px solid $orange;
+    padding: 3px;
+    color: $orange;
+    font-size: 15px;
+    font-family: $quicksand;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $med-padding;
+    font-weight: 500;
+}
+
+.findoutmore-button:hover {
+    border: 2px solid $lightpink;
+    color: $lightpink;
+}
+
+.whitetext-box {
+    margin-bottom: 30px;
+}
+
+.empower-women-image {
+    width: 118px;
+    height: 115px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $med-padding;
+}
+
+.orange-wave-divider {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+}
+
+.endorsement-container {
+    width: 100%;
+    height: auto;
+    background-color: $peach;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.endorsements-title {
+    font-size: 18px;
+    color: $darkpink;
+    font-family: $quicksand;
+    padding: $med-padding;
+    text-align: center;
+}
+
+
+.endorsement-single-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: $med-padding;
+}
+
+.endorsement-number {
+    font-size: 18px;
+    color: $darkpink;
+    font-family: $quicksand;
+    width: 10%;
+}
+
+.endorsement-text {
+    font-family: $noto;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    width: 90%;
+}
+
+// TESTIMONIALS 
+
+.testimonials-container {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.testimonials-header {
+    font-size: 18px;
+    color: #E9418B;
+    font-family: "Quicksand", sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.testimonials-subheader {
+    font-size: 15px;
+    color: #E9418B;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.testimonial-box {
+    width: 75%;
+    height: auto;
+    background: $peach;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: $noto;
+    border-radius: 20px;
+    border: 2px solid $orange;
+    box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+}
+
+.testimonial-text {
+    font-size: 15px;
+}
+
+.testimonial-author {
+    padding-top: 15px;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 10px;
+    font-size: 13px;
+}

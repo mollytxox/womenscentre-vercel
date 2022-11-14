@@ -1,0 +1,203 @@
+/* Media queries */
+@media screen and (min-width: 1024px) {
+  .mobile-donate-button {
+    display: none;
+  }
+  .show-mobile-menu-button {
+    display: none;
+  }
+  #topnav {
+    height: 120px;
+    display: block;
+  }
+  #topnav a,
+  #topnav li {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  #topnav img {
+    width: 175px;
+    height: 95px;
+    margin-top: -15px;
+  }
+  #topnav #logo {
+    margin-right: 675px;
+    margin-top: -8px;
+  }
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    width: 98%;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    padding-right: 0px;
+    margin-left: 40px;
+  }
+  #menu li {
+    display: inline-block;
+    margin-right: 85px;
+  }
+  #menu-container {
+    display: none;
+  }
+  .donate-link {
+    padding: 3px 5px 3px 5px;
+    margin-top: 0px !important;
+  }
+  #footer {
+    height: 120px;
+  }
+  .footer-links-box {
+    padding-top: 10px;
+  }
+  .footer-link {
+    width: 35%;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .footer-logo {
+    width: 50% !important;
+    padding: 15px 8px;
+    height: 80px !important;
+  }
+  .footer-logo-box .facebook-logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 25px;
+    margin-left: 10px;
+  }
+  .address-section {
+    width: 33%;
+    padding-left: 40px;
+  }
+  .address-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mobile-donate-button {
+    display: none;
+  }
+  .show-mobile-menu-button {
+    display: none;
+  }
+  #topnav {
+    height: 135px;
+    display: block;
+  }
+  #topnav a,
+  #topnav li {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  #topnav img {
+    width: 195px;
+    height: 115px;
+    margin-top: -18px;
+  }
+  #topnav #logo {
+    margin-right: 1050px;
+    margin-top: -8px;
+  }
+  #menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    width: 98%;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    padding-right: 0px;
+    margin-left: -15px;
+    padding-left: 170px;
+  }
+  #menu li {
+    display: inline-block;
+    margin-right: 100px;
+  }
+  #menu-container {
+    display: none;
+  }
+  .donate-link {
+    padding: 3px 5px 3px 5px;
+    margin-top: 0px !important;
+  }
+  #footer {
+    height: 120px;
+  }
+  .footer-links-box {
+    width: 40%;
+    height: 90%;
+    font-size: 15px;
+    padding-top: 8px;
+  }
+  .footer-link {
+    width: 28%;
+    padding: 8px;
+    font-size: 22px;
+  }
+  .footer-logo {
+    width: 40% !important;
+    padding: 8px 8px;
+    height: 90px !important;
+    margin-right: 50px;
+  }
+  .footer-logo-box {
+    width: 35%;
+    display: flex;
+  }
+  .footer-logo-box .facebook-logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 32px;
+    margin-left: 10px;
+  }
+  .address-section {
+    width: 20%;
+    padding-left: 10px;
+    margin-right: 110px;
+  }
+  .address-text {
+    font-size: 16px;
+    padding-top: 6px;
+  }
+  .welcome-title {
+    font-size: 50px;
+    padding: 15px;
+  }
+  .welcome-body-text {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .findoutmore-button {
+    width: 215px;
+    height: 60px;
+    padding: 6px;
+    font-size: 28px;
+    font-weight: 600;
+    float: right;
+  }
+  .empower-women-image {
+    width: 370px;
+    height: 360px;
+  }
+  .whiteimage-box {
+    padding-right: 65px;
+    padding-left: 60px;
+  }
+  .endorsements-title {
+    font-size: 45px;
+    padding-bottom: 25px;
+  }
+  .endorsement-number {
+    font-size: 45px;
+    padding-left: 65px;
+  }
+  .endorsement-text {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}

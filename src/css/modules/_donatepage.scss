@@ -1,0 +1,238 @@
+// DONATE PAGE
+.upside-down-orange-banner {
+    width: 100%;
+    height: auto;
+}
+
+.donations-header-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: -95px;
+}
+
+.donation-headers {
+    width: 70%;
+    height: auto;
+}
+
+.donations-header {
+    font-size: 18px;
+    color: $darkpink;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.donations-subheader {
+    font-family: "Noto Sans", sans-serif;
+    color: $darkpink;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.donation-image-box {
+    width: 30%;
+    height: auto;
+}
+
+.donation-image {
+    width: 90%;
+    height: auto;
+}
+
+#item-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    margin-bottom: 15px
+}
+
+.donate-box {
+    background: $peach;
+    width: 40%;
+    height: auto;
+    border: 2px solid $darkpink;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+}
+
+.donate-price {
+    font-size: 35px;
+    padding: 15px;
+    font-family: $quicksand;
+    color: $darkpink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.donate-box-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background: $lightpink;
+    border: 2px solid $darkpink;
+    color: $darkpink;
+    font-size: 14px;
+    padding: 5px;
+    font-family: $quicksand;
+    margin-bottom: 10px;
+}
+
+.more-about-donating,
+.howto-become-member {
+    width: 90%;
+    height: auto;
+    background-color: #FFEBF5;
+    border: 2px solid #E9418B;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(233, 65, 139, 0.3);
+}
+
+.become-a-member {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: $peach;
+    padding-top: 15px;
+    border: 2px solid $orange;
+    box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(244, 161, 90, 0.3);
+}
+
+.donation-body-text {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 22px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 20px;
+}
+
+.donations-header-pink {
+    font-size: 18px;
+    color: $darkpink;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.donations-header-orange {
+    font-size: 18px;
+    color: $orange;
+    font-family: "Quicksand", sans-serif;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.donating-text-container {
+    margin-bottom: 30px;
+}
+
+.orange-wave-divider3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+}
+
+// DONATE MODAL
+#modals-box {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px);
+    transition: all 0.3s ease;
+    z-index: 99;
+}
+
+#modal {
+    position: fixed;
+    top: 115px;
+    left: 35px;
+    background-color: $lightpink;
+    border: 2px solid $darkpink;
+    width: 80%;
+    height: auto;
+    color: $darkpink;
+    backdrop-filter: blur(5px);
+}
+
+#close-modal {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $darkpink;
+}
+
+#close-modal:hover {
+    cursor: pointer;
+}
+
+.modal-header {
+    font-family: $quicksand;
+    font-size: 17px;
+    padding: $med-padding;
+    text-align: center;
+    color: $orange;
+}
+
+.modal-content {
+    font-family: $noto;
+    font-size: 15px;
+    padding: $med-padding;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 375px) {
+
+    // DONATE PAGE
+    .donations-header-box {
+        margin-top: -105px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    // DONATE PAGE
+    .donations-header-box {
+        margin-top: -115px;
+    }
+
+    .donations-header {
+        font-size: 20px;
+        padding-left: 25px;
+    }
+
+    .donations-subheader {
+        padding-left: 25px;
+        font-size: 17px;
+    }
+}

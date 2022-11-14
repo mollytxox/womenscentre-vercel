@@ -1,0 +1,96 @@
+// footer
+#footer {
+    width: 100vw;
+    height: auto;
+    background: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.footer-link {
+    color: black;
+    font-family: $quicksand;
+    padding: 5px;
+}
+
+.footer-donate {
+    color: $darkpink;
+}
+
+.footer-logo-box {
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.logo-container {
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.facebook-container {
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.footer-logo {
+    width: 40%;
+    height: auto;
+    padding-left: 60%;
+}
+
+.facebook-logo {
+    width: 45%;
+    height: auto;
+    padding-left: 15%;
+    padding-top: 4px;
+}
+
+
+@media screen and (min-width: 375px) {
+    .footer-logo-box {
+        margin-bottom: 12px;
+    }
+
+    .footer-logo {
+        width: 35%;
+        height: auto;
+        padding-left: 65%;
+    }
+
+    .facebook-logo {
+        width: 45%;
+        height: auto;
+        padding-left: 15%;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .footer-logo-box {
+        margin-bottom: 12px;
+    }
+
+    .footer-logo {
+        width: 33%;
+        height: auto;
+        padding-left: 65%;
+    }
+
+    .facebook-logo {
+        margin-top: 8px;
+    }
+}

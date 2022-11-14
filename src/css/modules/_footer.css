@@ -1,0 +1,55 @@
+#footer {
+  width: 100vw;
+  height: auto;
+  background: whitesmoke;
+  display: flex;
+}
+
+.footer-links-box {
+  width: 100%;
+  height: auto;
+}
+
+.footer-logo-box {
+  width: 100%;
+  display: flex;
+}
+
+.footer-logo-box .footer-logo {
+  width: 40%;
+  padding: 18px 8px;
+  height: auto;
+}
+
+.footer-logo-box .facebook-logo {
+  width: 40%;
+  height: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .footer-logo-box {
+    width: 55%;
+    display: flex;
+  }
+  .footer-links-box {
+    width: 1%;
+    height: 1%;
+    font-size: 0px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .address-text {
+    padding-left: 25px;
+  }
+  .footer-logo-box {
+    width: 45%;
+    display: flex;
+    padding-left: 20px;
+  }
+  .footer-links-box {
+    width: 1%;
+    height: 1%;
+    font-size: 0px;
+  }
+}

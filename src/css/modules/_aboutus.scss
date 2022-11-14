@@ -1,0 +1,57 @@
+.aboutus-header-container {
+    width: 100%;
+    height: auto;
+    background-color: $lightpink;
+    padding-top: 35px;
+}
+
+.aboutus-header {
+    font-size: 18px;
+    padding: $med-padding;
+    color: $darkpink;
+    font-family: $quicksand;
+}
+
+.aboutus-header-subtext {
+    font-size: 15px;
+    padding-left: $med-padding;
+    padding-right: $med-padding;
+    padding-bottom: $large-padding;
+    font-family: $noto;
+    line-height: 20px;
+}
+
+.item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: $large-padding;
+}
+
+.item:nth-child(2) {
+    background: $lightpink;
+}
+
+.aboutus-images {
+    width: 170px;
+    height: auto;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutus-titles {
+    font-size: 18px;
+    color: $darkpink;
+    padding: $med-padding;
+    font-family: $quicksand;
+}
+
+.aboutus-text {
+    font-size: 15px;
+    padding: $med-padding;
+    font-family: $noto;
+    line-height: 20px;
+}

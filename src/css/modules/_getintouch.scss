@@ -1,0 +1,130 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.mapboxgl-map {
+    font: 12px/20px Helvetica Neue, Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.marker {
+    background-color: $darkpink;
+    border: 1px solid $orange;
+    padding: 15px;
+    display: inline-block;
+    font-size: -14px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.orange-contact-box {
+    width: 100%;
+    height: auto;
+    background-color: $peach;
+}
+
+.getintouch-header {
+    font-size: 18px;
+    padding: 15px;
+    color: $orange;
+    font-family: "Quicksand", sans-serif;
+}
+
+.getintouch-text {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 22px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 20px;
+}
+
+.store-image {
+    width: 100%;
+    height: auto;
+}
+
+.pink-contact-box {
+    width: 100%;
+    height: auto;
+    background-color: $lightpink;
+}
+
+.openhours-header {
+    font-size: 18px;
+    padding: 15px;
+    color: $darkpink;
+    font-family: "Quicksand", sans-serif;
+}
+
+.openhours-text {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 22px;
+    font-family: "Noto Sans", sans-serif;
+    line-height: 20px;
+}
+
+.contactform-header {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $orange;
+    font-family: "Quicksand", sans-serif;
+}
+
+.form-container {
+    width: 100%;
+    height: auto;
+    font-family: $noto;
+    font-size: 15px;
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-bottom: 22px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 88%;
+    border-radius: 0px;
+    border: 1px solid $orange;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: $noto;
+    color: grey;
+    padding: 4px;
+    margin-right: 50px;
+}
+
+.form-button-container {
+    display: flex;
+    justify-content: right;
+    width: 91%;
+}
+
+.form-submit-button {
+    background: transparent;
+    border: 2px solid $darkpink;
+    padding: 7px;
+    font-size: 15px;
+    color: $darkpink;
+    font-family: $noto;
+    margin-top: 10px;
+}
+
+.form-submit-button:hover {
+    cursor: pointer;
+    background: $lightpink;
+    border: 2px solid $darkpink;
+    color: $darkpink;
+}
